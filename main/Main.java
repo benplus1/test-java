@@ -6,7 +6,8 @@ public class Main {
         Divider d = new Divider();
         System.out.println(d.divide(3, 2));
 
-        Adder a = new Adder();
-        System.out.println(a.add(3, 5, 7));
+        Multiplier m = new Multiplier();
+
+        System.out.println(m.multiply(5, 6));
     }
 }
